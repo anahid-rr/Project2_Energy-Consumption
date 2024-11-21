@@ -44,7 +44,7 @@ else:
 
 filtered_data = filtered_data[filtered_data['energy_source'].isin(selected_sources)]
 filtered_continent = filtered_continent[filtered_continent['energy_source'].isin(selected_sources)]
-
+st.sidebar.markdown("### Created by: Anahid Raisrohani")
 # ********************************** Primary Energy Consumption Trends Over Time By Source *************************
 data_Cons = filtered_continent[filtered_continent['type'] == 'consumption']
 st.subheader("Primary Energy Consumption Trends Over Time By Source")

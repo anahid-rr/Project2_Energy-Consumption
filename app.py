@@ -139,8 +139,7 @@ fig = px.choropleth(df_map,
                     locations="country",
                     locationmode="country names",
                     color="value",
-                    color_continuous_scale="Viridis",
-                   
+                    color_continuous_scale="Viridis_r",
                     labels={'value': 'CO2 Emissions (Metric Million Tons)'},
                     title=f"CO2 Emissions by Country")
 
